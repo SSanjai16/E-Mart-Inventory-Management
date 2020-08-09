@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+.upload
+{
+	margin-left:250px;
+}
+.checktable
+{
+	margin-left:250px;
+}
+.sendinvoice input[type="submit"]
+{
+	text-align:centre;
+	margin:0 50%;
+	
+}
+.table 
+{
+	margin-top:20px;
+}

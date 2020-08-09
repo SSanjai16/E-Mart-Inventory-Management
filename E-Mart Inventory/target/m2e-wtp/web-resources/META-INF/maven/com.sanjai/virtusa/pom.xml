@@ -1,0 +1,135 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sanjai</groupId>
+  <artifactId>virtusa</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>virtusa Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  <dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>4.5.0</version>
+</dependency>
+  <dependency>
+    <groupId>org.webjars.bower</groupId>
+    <artifactId>jquery</artifactId>
+    <version>3.5.1</version>
+</dependency>
+  
+  <dependency>
+    <groupId>com.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>5.2</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>itextpdf</artifactId>
+    <version>5.5.13.1</version>
+</dependency>
+ <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>kernel</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>io</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>layout</artifactId>         
+         <version>7.0.2</version>
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>forms</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>pdfa</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>sign</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>barcodes</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>font-asian</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>hyph</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>  
+     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.0</version>
+</dependency>
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.6.2</version>
+</dependency>
+    <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.21</version>
+</dependency>
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>com.jfinal</groupId>
+    <artifactId>cos</artifactId>
+    <version>2020.4</version>
+</dependency>
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.4</version>
+</dependency>
+    <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.21</version>
+</dependency>   
+<dependency>
+    <groupId>net.sf.barcode4j</groupId>
+    <artifactId>barcode4j</artifactId>
+    <version>2.1</version>
+</dependency>
+  </dependencies>
+  <build>
+    <finalName>virtusa</finalName>
+  </build>
+</project>
